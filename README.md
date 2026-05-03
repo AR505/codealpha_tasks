@@ -1,26 +1,30 @@
-# 🎓 CGPA Calculator - CodeAlpha Task 1
+# 🎓 CGPA Calculator - CodeAlpha C++ Internship
 
-أهلاً بيك في أول مشاريعي في تدريب **CodeAlpha** لبرمجة الـ C++. البرنامج ده مش مجرد آلة حاسبة، هو محاولة لتطبيق مفاهيم الـ **Data Structures** والـ **Object-Oriented Programming** في مشكلة حقيقية بتقابلنا كطلبة[cite: 2].
+Welcome to my first project as part of the **CodeAlpha C++ Programming Internship**. This project is a practical implementation of fundamental programming concepts to solve a real-world academic challenge: calculating the Cumulative Grade Point Average (CGPA)[cite: 2].
 
-## 🚀 عن المشروع
-الهدف من البرنامج هو حساب المعدل التراكمي (CGPA) بناءً على عدد الساعات المعتمدة والدرجات[cite: 2]. البرنامج بيطلب منك:
-1. إدخال عدد المواد اللي درستها[cite: 2].
-2. إدخال اسم كل مادة، درجتها، وعدد ساعاتها المعتمدة[cite: 2].
-3. في النهاية، بيطلعلك تقرير منظم فيه كل مادة وجنبها بياناتها، مع المعدل النهائي (CGPA) بدقة رقمين عشريين[cite: 2].
+## 📝 About the Project
+The **CGPA Calculator** is a console-based application designed to help students track their academic performance accurately[cite: 2]. Instead of manual calculations, this tool automates the process by considering the specific weight of each course based on its credit hours[cite: 2].
 
-## 🛠️ التقنيات المستخدمة
+### Key Features:
+*   **Dynamic Course Management:** Enter any number of courses taken during the semester[cite: 2].
+*   **Weighted Calculations:** Computes the GPA based on the formula: `(Grade * Credit Hours) / Total Credits`[cite: 2].
+*   **Formatted Academic Report:** Generates a clean, tabular summary of all courses and the final result[cite: 2].
+
+## 🛠️ Technical Stack
 *   **Language:** C++
-*   **Concepts:** `struct` لتنظيم البيانات، و `vector` لإدارة الذاكرة بشكل ديناميكي[cite: 2].
-*   **Formatting:** استخدمت مكتبة `<iomanip>` عشان التقرير يطلع شكله شيك ومنظم[cite: 2].
+*   **Data Structures:** Used `struct` for data modeling and `std::vector` for dynamic memory management[cite: 2].
+*   **Formatting:** Leveraged the `<iomanip>` library to create a professional UI in the terminal.
+*   **Best Practices:** Implemented **Object-Oriented Programming (OOP)** principles for better code organization and scalability.
 
-## 🏗️ كيف يعمل الكود؟
-الكود متقسم بطريقة احترافية:
-*   **Course Struct:** بيشيل بيانات المادة الواحدة[cite: 2].
-*   **CGPACalculator Class:** هو العقل المدبر اللي فيه الـ Logic بتاع الحسابات والعرض[cite: 2].
-*   **Logic:** بيضرب درجة كل مادة في ساعاتها، وبيجمعهم، ويقسم على إجمالي الساعات[cite: 2].
+## 🏗️ How it Works
+1.  **Input Phase:** The program asks for the total number of courses[cite: 2].
+2.  **Data Collection:** For each course, the user provides the name, grade points, and credit hours[cite: 2].
+3.  **Processing:** The logic iterates through the stored data to calculate the total points and total credits[cite: 2].
+4.  **Output:** A detailed report is displayed with the final CGPA rounded to two decimal places[cite: 2].
 
-## 🏃 تشغيل البرنامج
-لو إنت مستخدم لينكس (زي حالتي على Debian)، تقدر تشغله كدة:
-```bash
-g++ main.cpp -o CGPA_Calc
-./CGPA_Calc
+## 🚀 Getting Started
+If you are running this on Linux (like my **Debian** setup), follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/AR505/CodeAlpha_CGPACalculator.git](https://github.com/AR505/CodeAlpha_CGPACalculator.git)
