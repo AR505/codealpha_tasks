@@ -1,30 +1,37 @@
-# 🎓 CGPA Calculator - CodeAlpha C++ Internship
+# 🚀 CodeAlpha C++ Programming Internship - Tasks
 
-Welcome to my first project as part of the **CodeAlpha C++ Programming Internship**. This project is a practical implementation of fundamental programming concepts to solve a real-world academic challenge: calculating the Cumulative Grade Point Average (CGPA)[cite: 2].
+Welcome to my repository for the **CodeAlpha** internship. Here, I have implemented two practical projects that demonstrate my skills in **C++**, **Object-Oriented Programming (OOP)**, and **File Handling**.
 
-## 📝 About the Project
-The **CGPA Calculator** is a console-based application designed to help students track their academic performance accurately[cite: 2]. Instead of manual calculations, this tool automates the process by considering the specific weight of each course based on its credit hours[cite: 2].
+---
 
-### Key Features:
-*   **Dynamic Course Management:** Enter any number of courses taken during the semester[cite: 2].
-*   **Weighted Calculations:** Computes the GPA based on the formula: `(Grade * Credit Hours) / Total Credits`[cite: 2].
-*   **Formatted Academic Report:** Generates a clean, tabular summary of all courses and the final result[cite: 2].
+## 🏦 Project 1: Advanced Banking System
+This is a comprehensive console-based banking application. It's designed to handle real-life banking scenarios efficiently.
 
-## 🛠️ Technical Stack
-*   **Language:** C++
-*   **Data Structures:** Used `struct` for data modeling and `std::vector` for dynamic memory management[cite: 2].
-*   **Formatting:** Leveraged the `<iomanip>` library to create a professional UI in the terminal.
-*   **Best Practices:** Implemented **Object-Oriented Programming (OOP)** principles for better code organization and scalability.
+### 🔑 Key Features:
+* **Account Persistence:** Uses a flat-file database (`bank_data.txt`) to save user balances so data isn't lost after closing the program.
+* **Smart Transactions:** Supports secure **Deposits**, **Withdrawals** (with balance check), and **Fund Transfers** between users.
+* **OOP Architecture:** Organized into classes (`BankManager`, `Customer`, `Account`, `Transaction`) for clean and scalable code.
+* **Transaction Logs:** Keeps a history of every action taken by the user.
 
-## 🏗️ How it Works
-1.  **Input Phase:** The program asks for the total number of courses[cite: 2].
-2.  **Data Collection:** For each course, the user provides the name, grade points, and credit hours[cite: 2].
-3.  **Processing:** The logic iterates through the stored data to calculate the total points and total credits[cite: 2].
-4.  **Output:** A detailed report is displayed with the final CGPA rounded to two decimal places[cite: 2].
+---
 
-## 🚀 Getting Started
-If you are running this on Linux (like my **Debian** setup), follow these steps:
+## 🎓 Project 2: CGPA Calculator
+A simple yet effective tool for students to track their academic performance.
 
+### 🔑 Key Features:
+* **Dynamic Input:** Allows users to enter any number of courses.
+* **Credit-Weighted Logic:** Calculates the CGPA based on individual course credits and grades.
+* **Formatted Output:** Provides a clear summary of the final academic standing.
+
+---
+
+## 🛠️ Tech Stack & Environment
+* **Language:** C++
+* **OS:** Debian Linux (Trixie)
+* **Compiler:** G++
+* **Tools:** VS Code / Terminal
+
+## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/AR505/CodeAlpha_CGPACalculator.git](https://github.com/AR505/CodeAlpha_CGPACalculator.git)
+   git clone [https://github.com/AR505/codealpha_tasks.git](https://github.com/AR505/codealpha_tasks.git)
