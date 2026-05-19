@@ -70,7 +70,7 @@ public:
             inFile.close();
         } else {
             addCustomer("Amir", 1000);
-            addCustomer("Gemini", 500);
+            addCustomer("Ahmad", 500);
         }
     }
 
@@ -100,7 +100,7 @@ public:
                     all_customers[i]->myAcc->deposit(amount);
                     all_customers[senderIdx]->myAcc->history.push_back(Transaction("To " + receiverName, amount));
                     all_customers[i]->myAcc->history.push_back(Transaction("From " + all_customers[senderIdx]->name, amount));
-                    saveToFile(); // حفظ التغيير في الحسابين
+                    saveToFile();
                     cout << "Transfer Successful!\n";
                     return;
                 }
